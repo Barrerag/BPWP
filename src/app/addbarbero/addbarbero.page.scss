@@ -1,0 +1,16 @@
+.body{
+    --background: rgb(39, 119, 240);
+    --background: linear-gradient(to right, rgb(40, 236, 194),rgb(39, 119, 240));
+}
+
+.form{
+    background: #fff;
+    border: 1px solid #fff;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
+}
+ion-toolbar{
+    --background: rgb(39, 119, 240);
+    --background: linear-gradient(to right, rgb(40, 236, 194),rgb(39, 119, 240));
+}

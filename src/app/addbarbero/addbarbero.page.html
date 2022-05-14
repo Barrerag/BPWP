@@ -1,0 +1,70 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button>
+        <img src="https://firebasestorage.googleapis.com/v0/b/barberhub-8f18e.appspot.com/o/logobp.png?alt=media&token=9659db60-f28a-4b1e-a235-d95b78007588" alt="">
+      </ion-button>
+      <ion-button style="color:aliceblue;" [routerLink]="['']">
+        Horarios
+      </ion-button>
+      <ion-button style="color:aliceblue;" [routerLink]="['']">
+        Barberos
+      </ion-button>
+      <ion-button style="color:aliceblue;" [routerLink]="['']">
+        Servicios
+      </ion-button>
+      <ion-button style="color:aliceblue;" [routerLink]="['']">
+        Galería
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="secondary">
+      <ion-button style="color:aliceblue;" [routerLink]="['/login']">
+        Ingresar
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="body">
+  <div class="container w-75 mt-5 rounded shadow ">
+    <div class="row align-items-stretch">
+
+      <div class="col form">
+        <h2 class="fw-bold text-center pt-5 mb-5">Añadir barbero</h2>
+
+        <form method="post">
+          <div class="mb-4">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="mb-4">
+            <label class="form-label">Apellido paterno</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="mb-4">
+            <label class="form-label">Apellido materno</label>
+            <input type="text"  class="form-control">
+          </div>
+          <div class="mb-4">
+            <label class="form-label">Teléfono de contacto</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="mb-4">
+            <label class="form-label">Email de contacto</label>
+            <input type="text"  class="form-control">
+          </div>
+          <div class="mb-4">
+            <label class="form-label">Servicios que realiza</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="d-grid">
+            <center>
+              <button type="submit" class="btn btn-primary">Agregar barbero</button>
+              <br><br>
+              <button  [routerLink]="['/home']" type="submit" class="btn btn-danger">Cancelar</button>
+            </center>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</ion-content>

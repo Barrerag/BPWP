@@ -1,0 +1,21 @@
+.body{
+    --background: rgb(39, 119, 240);
+    --background: linear-gradient(to right, rgb(40, 236, 194),rgb(39, 119, 240));
+}
+
+.form{
+    background: #fff;
+    border: 1px solid #fff;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
+}
+
+.bg{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/barberhub-8f18e.appspot.com/o/bg.jpg?alt=media&token=7806f7ce-59b4-4679-86d3-90c9e915c738);
+    background-size: cover;
+    background-position: center center;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
+}

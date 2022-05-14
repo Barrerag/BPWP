@@ -1,0 +1,36 @@
+<ion-content class="body">
+  <div class="container w-75 mt-5 rounded shadow ">
+    <div class="row align-items-stretch">
+        <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
+
+        </div>
+        <div class="col form">
+            <h2 class="fw-bold text-center pt-5 mb-5">Bienvenido</h2>
+
+            <form method="post">
+                <div class="mb-4">
+                    <label for="user_name" class="form-label">Correo electrónico</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-4">
+                    <label for="pass" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" >
+                </div>
+                <div class="d-grid">
+                    <center><button type="submit" class="btn btn-primary">Iniciar sesión</button></center>
+                </div>
+                <div class="my-3">
+                    <span>¿No tienes cuenta? 
+                      <a [routerLink]="['/registro']">Registrarse</a>
+                    </span> <br>
+                    <span>¿Olvidaste tu contraseña? <a href="#">Recuperar contraseña</a></span> <br>
+                    <span><a [routerLink]="['/home']">Volver al inicio</a></span>
+                </div>
+            </form>
+            
+            
+            
+        </div>
+    </div>
+</div>
+</ion-content>
